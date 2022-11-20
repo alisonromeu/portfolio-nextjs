@@ -55,6 +55,13 @@ export const ItemContainer = styled.div`
         font-weight: 300;
     }
 
+    a {
+        color: ${({theme}) => theme.primary};
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-top: 2rem;
+    }
+
     &:hover > div {
         filter: brightness(1.3);
         transform: translateY(-20px);

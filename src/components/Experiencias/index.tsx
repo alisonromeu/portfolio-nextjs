@@ -5,12 +5,12 @@ import { Container } from './styles';
 function Experiencias() {
     return (
         <Container>
-            <SectionTitle title="05 Anos" description="de experiência" />
+            <SectionTitle title="Especializando" description="em front-end" />
             
             <section>
-                <ExperienciaItem year="2020" title="#01 - Projeto" description="Trabalho desenvolvido a pedido da empresa Fulano" />
-                <ExperienciaItem year="2021" title="#02 - Projeto" description="Trabalho desenvolvido a pedido da empresa Ciclano" />
-                <ExperienciaItem year="2022" title="#03 - Projeto" description="Trabalho desenvolvido a pedido da empresa Mesclano" />
+                <ExperienciaItem year="2022" title="Clone Tela Inicial Netflix" description="Projeto realizado para fins de estudos." link='https://clone-tela-netflix-alisonromeu.vercel.app/' />
+                <ExperienciaItem year="2022" title="Beatysalon" description="Projeto inspirado em um site de salão de beleza." />
+                <ExperienciaItem year="2022" title="Buscador de CEP" description="Projeto desenvolvido em react consumindo uma API." />
             </section>
         </Container>
     )
