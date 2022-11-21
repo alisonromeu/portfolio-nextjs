@@ -15,21 +15,21 @@ function HomeHero() {
                         <span className="comment">// Minha Aprensentação</span>
                         <span className="purple">Infos</span> {'\u007b'}
                         <div>
-                            Nome: <span className="blue">Alison,</span>
+                            Nome: <span className="blue">Alison Romeu</span>
                         </div>
                         <div>
-                            Sobrenome: <span className="blue">Lamas</span>
+                            idade: <span className="blue">25 Anos</span>
                         </div>
                         {'\u007b'}
                     </CodeItem>
                     <CodeItem>
                         <span className="comment">// Estudando</span>
-                        <span className="purple">job</span> {'\u007b'}
+                        <span className="purple">studying</span> {'\u007b'}
                         <div>
                             Área: <span className="blue">Front-end,</span>
                         </div>
                         <div>
-                            Especialização: <span className="blue">React</span>
+                            Especialização: <span className="blue">React e React Native</span>
                         </div>
                         {'\u007b'}
                     </CodeItem>
