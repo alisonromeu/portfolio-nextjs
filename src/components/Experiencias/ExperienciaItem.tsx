@@ -14,7 +14,7 @@ function ExperienciaItem({year, title, description, linkUrl }: ExperienceProps) 
                 <h1>{year}</h1>
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <a href={linkUrl}>Veja mais</a>
+                <a href={linkUrl} target="_blank" >Veja mais</a>
             </div>
         </ItemContainer>
     )
