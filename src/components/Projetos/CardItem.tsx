@@ -5,11 +5,11 @@ import { AiOutlineRightCircle } from 'react-icons/ai'
 interface ProjetoProps {
     title: string;
     type: string;
-    slug: string;
+    link: string;
     img: string;
 }
 
-function CardItem({title, type, slug, img}: ProjetoProps) {
+function CardItem({title, type, link, img}: ProjetoProps) {
     return (
         <ProjetoContainer imgUrl={img} data-aos="fade-up" >
             <section>
@@ -20,8 +20,8 @@ function CardItem({title, type, slug, img}: ProjetoProps) {
                 </div>
             </section>
             <button type='button'>
-                <Link href={`/projetos/${slug}`}>
-                    <a>Ver mais <AiOutlineRightCircle /></a>
+                <Link href={link}>
+                    <a target='_blank' >Ver mais <AiOutlineRightCircle /></a>
                 </Link>
             </button>
         </ProjetoContainer>

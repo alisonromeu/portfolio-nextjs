@@ -18,7 +18,6 @@ export default function Projetos() {
             />
             <meta property="og:image" content="/ogimage.png" />
             <meta property="og:image:secure_url" content="/ogimage.png" />
-            <meta name="twitter:image" content="/ogimage.png" />
             <meta name="twitter:image:src" content="/ogimage.png" />
             <meta
             property="og:description"
@@ -29,10 +28,24 @@ export default function Projetos() {
             <Header />
             <main className="container">
                 <ProjetoItem 
-                    title="Projeto 01" 
-                    type="Website" 
-                    slug="Testando"
-                    imgUrl="https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+                    title="beautySalon" 
+                    type="- Website" 
+                    link="https://beautysalon-alisonromeu.vercel.app/"
+                    imgUrl="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                />
+
+                <ProjetoItem 
+                    title="Sistema de Notas com Autentificação" 
+                    type="- Sistema" 
+                    link="https://sistema-de-notas-alisonromeu.vercel.app/"
+                    imgUrl="https://cdn.pixabay.com/photo/2017/10/14/09/56/journal-2850091_960_720.jpg"
+                />
+
+                <ProjetoItem 
+                    title="Fluxo de Caixa" 
+                    type="- Programa" 
+                    link="https://finances-project-discover-alisonromeu.vercel.app/"
+                    imgUrl="https://media.istockphoto.com/id/466240661/pt/foto/golden-cifr%C3%B5es-a-chover.jpg?s=612x612&w=is&k=20&c=pR0gyCfiJ5VsjYy6rs2QIzr4BhoJb2azWW9k3RJtEnA="
                 />
             </main>
         </ProjetosContainer>

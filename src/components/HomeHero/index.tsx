@@ -15,10 +15,10 @@ function HomeHero() {
                         <span className="comment">// Minha Aprensentação</span>
                         <span className="purple">Infos</span> {'\u007b'}
                         <div>
-                            Nome: <span className="blue">Alison Romeu</span>
+                            Nome: <span className="blue">Alison Romeu,</span>
                         </div>
                         <div>
-                            idade: <span className="blue">25 Anos</span>
+                            Idade: <span className="blue">25 Anos</span>
                         </div>
                         {'\u007b'}
                     </CodeItem>

@@ -5,14 +5,14 @@ interface ProjetoItemProps {
     title: string;
     type: string;
     imgUrl: string;
-    slug: string;
+    link: string;
 }
 
-function ProjetoItem({title, type, imgUrl, slug}: ProjetoItemProps) {
+function ProjetoItem({title, type, imgUrl, link}: ProjetoItemProps) {
     return (
         <Container imgUrl={imgUrl}>
-            <Link href={`/projetos/${slug}`}>
-                <a>
+            <Link href={link}>
+                <a target='_blank'>
                     <div className='overlay' />
                     <section>
                         <h1>{title}</h1>
